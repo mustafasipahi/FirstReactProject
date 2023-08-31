@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import {Component} from "react";
 import Users from "./components/Users";
 
-class App extends Component{
+class App extends Component {
 
     render() {
         return (
@@ -11,7 +11,7 @@ class App extends Component{
                 <Navbar title="User App Title"></Navbar>
 
                 <hr/>
-                <Users users = {this.state.users}/>
+                <Users users={this.state.users}/>
             </div>
         );
     }
